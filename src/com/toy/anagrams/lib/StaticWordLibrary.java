@@ -39,13 +39,17 @@ final class StaticWordLibrary extends WordLibrary {
     private static final String[] WORD_LIST = {
         "Emma",
         "Lasse",
-        "Mia" 
+        "Mia",
+        "hej",
+        "farvel"
         };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "mmEa",
         "asesL",
-        "iMa"
+        "iMa",
+        "jhe",
+        "rlevaf"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
